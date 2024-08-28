@@ -18,7 +18,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors({
-  origin: 'https://60-maktabiM.netlify.app/' // Netlify saytingizning URL'si
+  origin: 'https://60-maktabiM.netlify.app' // Netlify saytingizning URL'si
 }));
 
 // Ma'lumotlarni JSON formatda olish uchun middleware
